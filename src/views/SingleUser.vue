@@ -5,6 +5,7 @@
 		<h1>HEllo {{ user.first_name + ' ' + user.last_name }}</h1>
 		<h3>You are using {{ user.email }} as your email</h3>
 		<img :src="user.avatar">
+		<hr>
 	</div>
 </template>
 
